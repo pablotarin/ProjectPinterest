@@ -1,0 +1,26 @@
+.navLink {
+  list-style: none;
+  border-radius: 30px;
+  height: 60px;
+  width: 123px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink > a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.inicio {
+  background-color: black;
+}
+
+.inicio > a {
+  color: white;
+}
