@@ -39,4 +39,17 @@ header .user {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 890px){
+  header ul {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px){
+  header .navButton {
+    display: none;
+  }
 }

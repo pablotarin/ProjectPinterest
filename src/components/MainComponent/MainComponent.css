@@ -1,12 +1,46 @@
-main {
+.main {
   padding: 20px;
-  column-count: 5; /* número de columnas por defecto */
-  column-gap: 10px; /* espacio entre columnas */
-  text-align: center; /* centra las cards cuando hay pocas */
+  column-count: 5;
+  column-gap: 10px;
   column-span: all;
+  margin: 0 auto;
 }
 
 article {
   break-inside: avoid;
   page-break-inside: avoid;
+}
+
+@media screen and (max-width: 1439px) {
+  .main {
+    column-count: 4;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .main {
+    column-count: 3;
+  }
+
+  .userDiv > .userImg{
+    width: 75px;
+    height: 75px;
+  }
+
+ article > .imgCardDiv:hover + .userDiv > .userImg {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    column-count: 2;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main {
+    column-count: 1;
+  }
 }

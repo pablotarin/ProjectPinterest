@@ -20,7 +20,7 @@ export const MainComponent = async () => {
 
 const renderPhotos = (photos) => {
   const app = document.querySelector("#app");
-  const mainRem = document.querySelector('.main');
+  const mainRem = document.querySelector(".main");
   mainRem.remove();
   const main = CardComponent(photos);
   app.append(main);

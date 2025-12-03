@@ -1,10 +1,13 @@
 article {
-  width: 264px;
+  width: auto;
   height: fit-content;
   position: relative;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
 }
 
-article > img {
+article > .imgCardDiv > .imgDiv {
   width: 100%;
   height: auto;
   object-fit: cover;
@@ -13,18 +16,16 @@ article > img {
   display: block;
 }
 
-article > img:hover {
+article > .imgCardDiv:hover > .imgDiv{
   filter: brightness(60%);
 }
 
-article:hover > a.visitButton{
-    opacity: 1;
+article > .imgCardDiv:hover > a.visitButton{
+  opacity: 1;
 }
 
-article > a.visitButton {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
+article > .imgCardDiv:hover + .userDiv > .userImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
 }

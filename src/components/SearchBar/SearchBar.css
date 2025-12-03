@@ -7,10 +7,10 @@
   align-items: center;
   flex-grow: 1;
   gap: 19px;
-  max-width: 800px;
+  min-width: 150px;
 }
 
-p {
+.searchBar p {
   width: 32px;
   height: 32px;
   display: flex;
@@ -30,4 +30,17 @@ input#search {
   font-size: 24px;
   font-weight: 400;
   font-style: normal;
+  min-width: 90px;
+}
+
+@media screen and (max-width: 375px) {
+  .searchBar{
+    padding: 15px 10px;
+  }
+
+  .searchBar p {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+  }
 }
