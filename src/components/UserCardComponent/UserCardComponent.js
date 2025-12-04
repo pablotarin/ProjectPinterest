@@ -4,7 +4,7 @@ export const UserCardComponent = ({
   userPhoto,
   name,
   datePublish = "03/12/2025",
-  color = "black",
+  color = "var(--color-black)",
 }) => {
   const div = document.createElement("div");
   const img = document.createElement("img");

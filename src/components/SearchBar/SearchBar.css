@@ -1,8 +1,8 @@
 .searchBar {
-  background: rgba(236, 236, 236, 1);
+  background: var(--searchBar-bg);
   padding: 33px 31px;
-  border-radius: 30px;
-  height: 60px;
+  border-radius: var(--radius-md);
+  height: var(--btn-height);
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -16,9 +16,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Inter";
+  font-family: var(--font-family-base);
   font-size: 32px;
-  font-weight: 400;
+  font-weight: var(--font-weight-regular);
   font-style: normal;
 }
 
@@ -26,9 +26,9 @@ input#search {
   flex-grow: 1;
   background-color: transparent;
   border: none;
-  font-family: "Inter";
-  font-size: 24px;
-  font-weight: 400;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-regular);
   font-style: normal;
   min-width: 90px;
 }

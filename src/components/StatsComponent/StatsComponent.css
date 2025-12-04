@@ -1,9 +1,9 @@
 .itemStatDiv {
   opacity: 0;
   z-index: 5;
-  background-color: rgba(231, 231, 231, 1);
-  border-radius: 30px;
-  gap: 3px;
+  background-color: var(--itemStat-bg);
+  border-radius: var(--radius-md);
+  gap: var(--gap-xsmall);
   width: 60px;
   height: 60px;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 .itemStatDiv > p{
-    font-family: 'Inter';
-    font-size: 16px;
-    font-weight: 400;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
 }

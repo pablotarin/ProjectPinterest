@@ -1,8 +1,8 @@
 .navLink {
   list-style: none;
-  border-radius: 30px;
-  height: 60px;
-  width: 123px;
+  border-radius: var(--radius-md);
+  height: var(--btn-height);
+  width: var(--btn-width);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,17 +11,17 @@
 
 .navLink > a {
   text-decoration: none;
-  color: black;
-  font-family: "Inter";
-  font-weight: 400;
+  color: var(--color-black);
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-regular);
   font-style: normal;
-  font-size: 24px;
+  font-size: var(--font-size-medium);
 }
 
 .inicio {
-  background-color: black;
+  background-color: var(--color-black);
 }
 
 .inicio > a {
-  color: white;
+  color: var(--color-white);
 }

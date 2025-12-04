@@ -12,7 +12,7 @@
     height: fit-content;
     position: absolute;
     bottom: 20px;
-    gap: 10px;
+    gap: var(--gap-small);
 }
 
 
@@ -21,25 +21,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Inter";
-    font-weight: 400;
+    font-family: var(--font-family-base);
+    font-weight: var(--font-weight-regular);
     font-style: normal;
     width: 100%;
-    font-size: 16px;
+    font-size: var(--font-size-small);
 }
 
 .userDiv > .userImg{
-    width: 90px;
-    height: 90px;
-    border-radius: 45px;
-    border: 8px solid;
+    width: var(--avatar-medium);
+    height: var(--avatar-medium);
+    border-radius: var(--radius-circle);
+    border: var(--border-user) solid;
 }
 
 .dateDiv {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: var(--gap-small);
 }
 
 .dateDiv > img {

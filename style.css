@@ -1,1 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --visit-button-color: #ff0000;
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --searchBar-bg: #ececec;
+  --itemStat-bg: #e7e7e7;
+  --headerUser-bg: #e5e5e5;
+  --headerUser-text: #757575;
+
+  --font-family-base: "Inter", sans-serif;
+  --font-size-large: 36px;
+  --font-size-medium: 24px;
+  --font-size-small: 16px;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+
+  --gap-small: 10px;
+  --gap-medium: 18px;
+  --gap-xsmall: 3px;
+
+  --radius-sm: 20px;
+  --radius-md: 30px;
+  --radius-circle: 50%;
+  --border-user: 8px;
+
+  --btn-width: 123px;
+  --btn-height: 60px;
+
+  --avatar-small: 75px;
+  --avatar-medium: 90px;
+  --avatar-large: 120px;
+}

@@ -1,7 +1,7 @@
 .main {
   padding: 20px;
   column-count: 5;
-  column-gap: 10px;
+  column-gap: var(--gap-small);
   column-span: all;
   margin: 0 auto;
 }
@@ -11,9 +11,9 @@ article {
   page-break-inside: avoid;
 }
 .notFound {
-  font-family: 'Inter';
-  font-size: 36px;
-  font-weight: 400;
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-large);
+  font-weight: var(--font-weight-regular);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,13 +33,13 @@ article {
   }
 
   .userDiv > .userImg{
-    width: 75px;
-    height: 75px;
+    width: var(--avatar-small);
+    height: var(--avatar-small);
   }
 
  article:hover .userDiv > .userImg {
-    width: 90px;
-    height: 90px;
+    width: var(--avatar-medium);
+    height: var(--avatar-medium);
   }
 }
 
